@@ -37,6 +37,8 @@ class ContactView:
             elif choice == '2':
                 contacts = self.service.get_contacts()
                 self.display_contacts(contacts)
+            elif choice == '3':
+                pass
             elif choice == '4':
                 self.display_message("Au revoir !")
                 break
